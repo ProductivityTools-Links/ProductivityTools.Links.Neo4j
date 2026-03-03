@@ -9,6 +9,6 @@ services:
     environment:
         - NEO4J_AUTH=neo4j/your_password
     ports:
-      - "7474:7474"
+      - "7475:7475"
       - "7687:7687"
     restart: always
