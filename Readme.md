@@ -20,3 +20,12 @@ docker run --interactive --tty --rm \
   neo4j:latest \
   neo4j-admin database migrate neo4j --force-btree-indexes-to-range
 ```
+
+## Local debugging
+
+ubuntu:
+```
+sudo ufw allow 7474/tcp
+sudo ufw allow 7687/tcp
+
+```
