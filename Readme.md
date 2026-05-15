@@ -3,6 +3,8 @@ It should be run from terminal without sudo
 from the ~/github/ProductivityTools.Links.Neo4j directory
 the database files are in ~/neo4j
 
+## Change DB password
+
 # Restore database
 
 ```
