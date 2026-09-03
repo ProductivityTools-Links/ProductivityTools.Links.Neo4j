@@ -2,10 +2,10 @@ services:
   neo4j:
     image: neo4j:latest
     volumes:
-      - ~/neo4j/logs:/logs
-      - ~/neo4j/conf:/conf
-      - ~/neo4j/data:/data
-      - ~/neo4j/plugins:/plugins
+      - /home/pawel/neo4j/logs:/logs
+      - /home/pawel/neo4j/conf:/conf
+      - /home/pawel/neo4j/data:/data
+      - /home/pawel/neo4j/plugins:/plugins
     environment:
        # - NEO4J_AUTH=neo4j/your_password
         - NEO4J_PLUGINS=["apoc"]
